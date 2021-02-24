@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "320045210023",
+    "firebase_url": "https://masterfax-cd6eb.firebaseio.com",
+    "project_id": "masterfax-cd6eb",
+    "storage_bucket": "masterfax-cd6eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320045210023:android:e138b23f167a9c02",
+        "android_client_info": {
+          "package_name": "com.example.masterfax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320045210023-vhq5tv6p1cdouco8omqqvrav7564h05j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqHhkul0hnwnbfna6yG7IY9XYZM9eKZkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320045210023-vhq5tv6p1cdouco8omqqvrav7564h05j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

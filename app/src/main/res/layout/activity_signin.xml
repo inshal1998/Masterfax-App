@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity"
+    tools:ignore="VectorDrawableCompat">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bgheader"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:elevation="5dp"
+        android:background="@drawable/header"
+        />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Login"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="17sp"
+        android:elevation="5dp"
+        android:textColor="@color/colorwhite"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/logintxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@+id/welcome"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:elevation="5dp"
+        android:layout_alignLeft="@+id/welcome"
+        android:textColor="@color/colorwhite"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/circle1"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_below="@+id/bgheader"
+        android:src="@drawable/circle_loginpage"
+        android:layout_marginTop="-80dp"
+        android:layout_marginRight="-100dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <ImageView
+        android:id="@+id/circle2"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/circle_loginpage"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="-100dp"
+        />
+
+    <ImageView
+        android:id="@+id/circle3"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/circle_loginpage"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginRight="-80dp"
+        />
+
+    <ImageView
+        android:id="@+id/circle4"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/circle3"
+        android:src="@drawable/circle_loginpage"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginRight="-50dp"
+        />
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="2dp"
+                    android:layout_margin="20dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent"
+                            android:paddingBottom="50dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:text="Email"
+                                android:textColor="@color/purple"
+                                android:textStyle="bold"
+                                android:textSize="14sp">
+                            </TextView>
+                            <EditText
+                                android:id="@+id/signin_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:inputType="text"
+                                android:layout_marginRight="10dp"
+                                >
+                            </EditText>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:text="@string/password"
+                                android:textColor="@color/purple"
+                                android:textStyle="bold"
+                                android:textSize="14sp">
+                            </TextView>
+                            <EditText
+                                android:id="@+id/signin_password"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:inputType="textPassword"
+                                android:layout_marginRight="10dp"
+                                >
+                            </EditText>
+                        </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cv"
+                android:layout_alignRight="@id/cv"
+                android:layout_alignLeft="@id/cv"
+                android:elevation="10dp"
+                android:layout_marginTop="-50dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                >
+                    <Button
+                        android:id="@+id/signin_Submit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Login"
+                        android:textColor="@color/colorwhite"
+                        android:background="@drawable/btn_login"
+                        android:textAllCaps="false">
+
+                    </Button>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/cv"
+                android:layout_alignRight="@+id/cv"
+                android:layout_marginTop="-20dp"
+                android:layout_marginRight="-20dp"
+                android:elevation="10dp"
+                >
+                <ImageButton
+                    android:id="@+id/NewAccount"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_add"
+                   android:background="@drawable/btn_login"
+                    >
+
+                </ImageButton>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/fp"
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password"
+                android:layout_below="@id/cv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                >
+            </TextView>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "68264664970",
+    "firebase_url": "https://masterfax-af779.firebaseio.com",
+    "project_id": "masterfax-af779",
+    "storage_bucket": "masterfax-af779.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68264664970:android:e138b23f167a9c02",
+        "android_client_info": {
+          "package_name": "com.example.masterfax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68264664970-g0dva6irf5v2gkm8ig6qvab0i082n62p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.masterfax",
+            "certificate_hash": "9f1475fbe53c7c80e4276ce5632c03fdf1bdcdde"
+          }
+        },
+        {
+          "client_id": "68264664970-d6ek9cir7k6vlm89usls1ea08g4vvahf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.masterfax",
+            "certificate_hash": "ef40ecaf1771b2fffea09119c07ed07ee5d96db4"
+          }
+        },
+        {
+          "client_id": "68264664970-evu8v2factpdfjiaa3u26dego40c8r9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHv-RAGWQ03TN9zRXVSlGkF5wTA2brpK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68264664970-evu8v2factpdfjiaa3u26dego40c8r9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
